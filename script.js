@@ -66,4 +66,6 @@ $( function() {
       .text( "Starting download..." );
     downloadButton.trigger( "focus" );
   }
+  var nav = responsiveNav(".nav-collapse");
+
 } );
